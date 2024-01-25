@@ -1,0 +1,33 @@
+{
+  "name": "@qlc/cs-api-core",
+  "version": "2.0.0",
+  "description": "Minimalist, auto-generating RESTful API for use in control systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.jhuapl.edu/jonesjp1/cs-api-core.git"
+  },
+  "keywords": [
+    "api",
+    "REST",
+    "control-system",
+    "dynamic",
+    "auto",
+    "walkable"
+  ],
+  "author": "Jonathan P. Jones",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@qlc/cs-api-object": "^1.5.1",
+    "@qlc/cs-backup": "^1.0.1",
+    "@qlc/cs-config-manager": "^1.1.0",
+    "@qlc/cs-datatypes": "^1.0.1",
+    "@qlc/cs-gui": "^1.0.0",
+    "@qlc/cs-timers": "^1.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

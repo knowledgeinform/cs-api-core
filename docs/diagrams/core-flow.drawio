@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-09-18T16:22:59.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="c_L0io5hvKW3yZJnW62U" version="21.7.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1114" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="wRc-UzePklIdNTStckQK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="wRc-UzePklIdNTStckQK-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="new CoreAPI" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontFamily=Courier New;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRc-UzePklIdNTStckQK-0" target="wRc-UzePklIdNTStckQK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-0" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;constructor&lt;/b&gt;()&lt;/span&gt;&lt;/div&gt;1. Generate front-end URL (ipAddress + &#39;:&#39; + port) for the front-end&lt;br&gt;2. Whitelist that URL for CORS, so that we can actually use the API&lt;br&gt;3. Initialize express.js, so that we can setup all the API routes&lt;br&gt;4. Do some express setup with CORS and the web GUI&lt;br&gt;5. Initialize the base services array with this.baseServices = []" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fontFamily=Courier New;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="170" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRc-UzePklIdNTStckQK-2" target="wRc-UzePklIdNTStckQK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-2" value="&lt;b&gt;initialize&lt;/b&gt;() =&amp;gt; iterate over the base services to create all of the base service routes" style="whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="370" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRc-UzePklIdNTStckQK-4" target="wRc-UzePklIdNTStckQK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-4" value="&lt;b&gt;initializeUtilities&lt;/b&gt;() =&amp;gt; setup the features that depend on the services themselves (e.g., timers)" style="whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="480" width="530" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wRc-UzePklIdNTStckQK-6" value="&lt;b&gt;start&lt;/b&gt;()&lt;br&gt;1. Generate the API from the base services&lt;br&gt;2. Open up the address:port to listen for GET/POST requests" style="whiteSpace=wrap;html=1;fontFamily=Courier New;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="600" width="530" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
